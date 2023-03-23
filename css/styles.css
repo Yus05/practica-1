@@ -3,4 +3,6 @@
   Color del texto gris: hsl(227, 10%, 46%)
  */
 
- 
+.body{
+    background-color: hsl(185, 75%, 39%);
+}
