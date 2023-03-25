@@ -2,11 +2,19 @@
   Color de fondo: hsl(185, 75%, 39%)
   Color del texto gris: hsl(227, 10%, 46%)
  */
-
-.body{
-    background-color: hsl(185, 75%, 39%);
+*{
+  box-sizing: border-box;
 }
 
+.body{
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-family: sans-serif;
+
+}
+
+/* Posiciono y ubico los circulos de fondo. */
 .top-circle,
 .bottom-circle{
   position: absolute;
@@ -23,3 +31,80 @@
   bottom: -300px;
   right: -150px;
 }
+
+/* Trabajando con la tarjeta */
+
+.card{
+  position: relative;
+  top: 150px;
+  width: 280px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.pattern{
+  position: absolute;
+  width: 280px;
+}
+
+.image{
+  position: relative;
+  top: 65px;
+  border-radius: 50%;
+  display: block;
+  width: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #fff;
+}
+
+.name,
+.city{
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+}
+
+.name{
+  top: 55px;
+}
+.city{
+  top: 45px;
+}
+
+.age,
+.city,
+.description{
+  color: hsl(227, 10%, 46%);
+}
+
+.card_bottom{
+  position: relative;
+  width: 280px;
+  top: 70px;
+  border-top: 1px solid hsl(227, 10%, 46%);
+}
+
+.card_left,
+.card_center,
+.card_right{
+  position: absolute;
+  text-align: center;
+}
+
+.card_left{
+  left: 25px;
+}
+.card_center{
+  left: 125px;
+}
+
+.card_right{
+  right: 25px;
+}
+
+/* termina detalles y verifica que otra manera tienes de mover los elementos del bottom. */
