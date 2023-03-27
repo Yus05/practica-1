@@ -2,6 +2,7 @@
   Color de fondo: hsl(185, 75%, 39%)
   Color del texto gris: hsl(227, 10%, 46%)
  */
+
 *{
   box-sizing: border-box;
 }
@@ -66,7 +67,7 @@
 .city{
   position: relative;
   text-align: center;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 .name{
@@ -82,11 +83,13 @@
   color: hsl(227, 10%, 46%);
 }
 
+/* Parte inferior de la tarjeta: */
+
 .card_bottom{
   position: relative;
   width: 280px;
   top: 70px;
-  border-top: 1px solid hsl(227, 10%, 46%);
+  border-top: 2px solid hsl(227, 10%, 46%, 0.2);
 }
 
 .card_left,
@@ -105,6 +108,14 @@
 
 .card_right{
   right: 25px;
+}
+
+.number{
+  font-size: 18px;
+}
+
+.description{
+  font-size: 13.5px;
 }
 
 /* termina detalles y verifica que otra manera tienes de mover los elementos del bottom. */
