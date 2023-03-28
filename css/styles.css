@@ -121,6 +121,25 @@
 /* 
 A CONTINUACION, LA SOLUCION DE DORIAN: 
 
+HTML: 
+- En la estructura del HTML utilizo un article, ya que tomó la tarjeta como contenido independiente. Article es lo que representa contenido independiente. 
+- Dentro del article, creo un header y dentro del header colocó la imagen de Victor y el patrón.
+- Debajo del header, ya trabajando en el body puso un section y dentro del section puso dos p y un span.
+- Debajo del body, puso un footer y dentro de este puso 3 div con 2 p, dentro.
 
-
+CSS:
+- En en body, puso un font-size de 1.3rem.
+- A los circulos les dio position absolute.
+- Soluciono el scrool con overflow hidden en el body.
+- En la card, la posiciono con position relative, le dio medidas y la bajo 30vh. La centro con margin left y margin right auto. Le dio estilos y color. 
+- Ahora con el header, le dio position relative, un alto y un text-align: center. Con esto, centro la foto y el patron. Le dio un width del 100% al patron para que ocupara todo. 
+- Para los bordes redondeados, puso el overflow: hidden a la tarjeta.
+- A la foto le dio position absolute y la movio con top y left. 
+- A la foto le dio border radius y un border. 
+- HACK para el borde azul que queda. Darle un bgc blanco a la foto. Es un truco. 
+- Ahora con el body, le dio position absolute. la bajo con top, width 100% y height 100px, y text align center. 
+- Ahora con el footer, le dio un position absolute y un bottom de 15px. Width del 100% un text aling center. Queda todo en el medio, montado cada uno encima del otro. Para bajarlos y colocarlos cada uno al lado del otro, transformo los div que estan dentro del footer y que contienen los p, en elementos del linea con display in-line block. Luego, para centrarlos y mejorar su ubicacio, puso: un margin de 0 en top y bottom, y a los lados de 0.5em ; un width de 100px y un text;align center.
+- Para acomodar el espacio entre los parrafos que contienen el nombre y la ciudad. Le quito el margin que traen por defecto y para separarlos les puso un margin-bottom: .5 em.
+- puso una clase en comun (la llama modificador) para las palabras que tienen el color gris. 
+- 
 */
