@@ -16,19 +16,19 @@
 }
 
 /* Posiciono y ubico los circulos de fondo. */
-.top-circle,
-.bottom-circle{
+.body__top-circle,
+.body__bottom-circle{
   position: absolute;
   width: 700px;
   height: 700px;
 }
 
-.top-circle{
+.body__top-circle{
   top: -300px;
   left: -150px;
 }
 
-.bottom-circle{
+.body__bottom-circle{
   bottom: -300px;
   right: -150px;
 }
@@ -47,12 +47,12 @@
   overflow: hidden;
 }
 
-.pattern{
+.card__header{
   position: absolute;
   width: 280px;
 }
 
-.image{
+.card__picture{
   position: relative;
   top: 65px;
   border-radius: 50%;
@@ -63,58 +63,58 @@
   border: 3px solid #fff;
 }
 
-.name,
-.city{
+.card__name,
+.card__city{
   position: relative;
   text-align: center;
   font-size: 13.5px;
 }
 
-.name{
+.card__name{
   top: 55px;
 }
-.city{
+.card__city{
   top: 45px;
 }
 
-.age,
-.city,
-.description{
+.card__age,
+.card__city,
+.card__description{
   color: hsl(227, 10%, 46%);
 }
 
 /* Parte inferior de la tarjeta: */
 
-.card_bottom{
+.card__footer{
   position: relative;
   width: 280px;
   top: 70px;
   border-top: 2px solid hsl(227, 10%, 46%, 0.2);
 }
 
-.card_left,
-.card_center,
-.card_right{
+.card__footer-left,
+.card__footer-center,
+.card__footer-right{
   position: absolute;
   text-align: center;
 }
 
-.card_left{
+.card__footer-left{
   left: 25px;
 }
-.card_center{
+.card__footer-center{
   left: 125px;
 }
 
-.card_right{
+.card__footer-right{
   right: 25px;
 }
 
-.number{
+.card__number{
   font-size: 18px;
 }
 
-.description{
+.card__description{
   font-size: 13.5px;
 }
 
